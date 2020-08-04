@@ -44,11 +44,11 @@ steps:
     command: 'restore'
     projects: '**/*.csproj'
 
-- templates/build.yml
+- templete: templates/build.yml
   parameters:
     buildConfiguration: 'Debug'
 
-- templetes/build.yml
+- templete: templetes/build.yml
   parameters:
     buildConfiguration: 'Release'
 
